@@ -1,0 +1,131 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  box-shadow: 4px 5px 10px 7px rgba(34, 60, 80, 0.2);
+  width: 1080px;
+  height: 1920px;
+  background: #34343e;
+}
+
+.date {
+  color: #a0a0a0;
+  position: absolute;
+  right: 80px;
+  top: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.text-price,
+.price span,
+.text span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  color: #34343e;
+}
+
+.text-price {
+  width: 585px;
+  margin-top: 100px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 104px;
+}
+
+.price span {
+  font-size: 56px;
+}
+
+.subtotal {
+  background-color: #fff;
+  border-radius: 0px 0px 80px 80px;
+  height: 1720px;
+  position: relative;
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+
+.subtotal-check {
+  background: url("./assets/Check.svg") no-repeat;
+  background-size: contain;
+  width: 932px;
+  height: 920px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.two-lines {
+  white-space: nowrap;
+}
+
+.first-word {
+  display: block;
+}
+
+.second-line {
+  display: inline;
+}
+
+/* arrow */
+.arrow {
+  position: absolute;
+  bottom: 60px;
+  right: 80px;
+  background: none;
+  border: none;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.arrow {
+  animation: bounce 1.5s infinite;
+}
+
+/* buttons */
+.buttons {
+  display: flex;
+  padding: 60px;
+  gap: 10px;
+  width: 403px;
+  height: 80px;
+}
+.buttons button {
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(52, 52, 62, 0.24);
+  border-radius: 16px;
+  color: #34343e;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.employee-call {
+  flex-grow: 1;
+}
+
+.go-back {
+  width: 80px;
+}
