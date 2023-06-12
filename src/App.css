@@ -22,18 +22,11 @@
   line-height: 32px;
 }
 
-.text-price,
-.price span,
-.text span {
-  font-style: normal;
+.text-price span {
+  color: #a0a0a0;
   font-weight: 600;
-  font-size: 56px;
-  color: #34343e;
-  
-}
-
-.text span{
-  color: #00923A;
+  font-size: 36px;
+  line-height: 44px;
 }
 
 .text-price {
@@ -41,13 +34,26 @@
   margin-top: 100px;
 }
 
-.price {
+.text-price .price {
+  font-style: normal;
   font-weight: 700;
   font-size: 104px;
+  color: #34343e;
 }
 
 .price span {
+  font-style: normal;
+  font-weight: 700;
   font-size: 56px;
+  color: #34343e;
+}
+
+.text span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  color: #00923a;
+  line-height: 64px;
 }
 
 .subtotal {
@@ -70,7 +76,7 @@
 }
 
 .two-lines {
-  white-space: nowrap;
+  white-space: nowrap; 
 }
 
 .first-word {
@@ -78,7 +84,7 @@
 }
 
 .second-line {
-  display: inline;
+  display: inline; 
 }
 
 /* arrow */
@@ -86,24 +92,24 @@
   position: absolute;
   bottom: 60px;
   right: 80px;
-  background: none;
-  border: none;
 }
 
 @keyframes bounce {
   0% {
-    transform: translateY(0);
+    transform: translateY(0); 
   }
   50% {
-    transform: translateY(-40px);
+    transform: translateY(-40px); 
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(0); 
   }
 }
 
 .arrow {
   animation: bounce 1.5s infinite;
+  background: none;
+  border: none;
 }
 
 /* buttons */
@@ -132,5 +138,5 @@
 }
 
 .go-back {
-  width: 80px;
+  width: 80PX;
 }
