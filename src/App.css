@@ -29,6 +29,11 @@
   font-weight: 600;
   font-size: 56px;
   color: #34343e;
+  
+}
+
+.text span{
+  color: #00923A;
 }
 
 .text-price {
